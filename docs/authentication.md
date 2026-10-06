@@ -2,7 +2,7 @@
 
 ## Getting Your API Key
 
-1. Sign up at https://github.com/werouteapi/routing-api-docs
+1. Sign up at https://dashboard.routingapi.com
 2. Go to **Settings → API Keys**
 3. Click **Create New Key**
 4. Copy your key (starts with `sk_` for secret keys or `pk_` for public keys)

@@ -37,4 +37,5 @@ See `/examples` directory for:
 ## Support
 
 - Email: support@webundle.org
-- GitHub: https://github.com/werouteapi
+- Slack: [Join Community]
+- Status: https://status.routingapi.com
