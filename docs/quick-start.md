@@ -2,7 +2,7 @@
 
 ## Get API Key
 
-1. Visit https://dashboard.routingapi.com
+1. Visit https://github.com/werouteapi/routing-api-docs
 2. Sign up for a free account
 3. Go to **Settings → API Keys**
 4. Click **Create New Key**
@@ -145,5 +145,5 @@ curl -X POST https://sandbox.routingapi.com/payments/route \
 ## Support
 
 - Email: support@webundle.org
-- Docs: https://docs.routingapi.com
-- Status: https://status.routingapi.com
+- Docs: https://github.com/werouteapi/routing-api-docs
+- Status: https://github.com/werouteapi
