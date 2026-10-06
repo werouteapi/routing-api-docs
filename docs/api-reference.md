@@ -2,8 +2,8 @@
 
 ## Base URLs
 
-- **Production**: `https://api.routingapi.com`
-- **Sandbox**: `https://sandbox.routingapi.com`
+- **Production**: `https://api.webundle.org`
+- **Sandbox**: `https://api.webundle.org` (use test API keys)
 
 ## Payment Routing Endpoints
 

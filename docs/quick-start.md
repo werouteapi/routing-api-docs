@@ -2,7 +2,7 @@
 
 ## Get API Key
 
-1. Visit https://dashboard.routingapi.com
+1. Visit https://dashboard.webundle.org
 2. Sign up for a free account
 3. Go to **Settings → API Keys**
 4. Click **Create New Key**
@@ -86,7 +86,7 @@ print(f'Fee: ${result.estimated_fee / 100}')
 ```bash
 export ROUTING_API_KEY="sk_test_your_key_here"
 
-curl -X POST https://sandbox.routingapi.com/payments/route \
+curl -X POST https://api.webundle.org/payments/route \
   -H "Authorization: Bearer $ROUTING_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
@@ -131,7 +131,7 @@ curl -X POST https://sandbox.routingapi.com/payments/route \
 All test API keys start with `sk_test_`:
 
 ```bash
-curl -X POST https://sandbox.routingapi.com/payments/route \
+curl -X POST https://api.webundle.org/payments/route \
   -H "Authorization: Bearer sk_test_abc123" \
   ...
 ```
@@ -145,5 +145,5 @@ curl -X POST https://sandbox.routingapi.com/payments/route \
 ## Support
 
 - Email: support@webundle.org
-- Docs: https://docs.routingapi.com
-- Status: https://status.routingapi.com
+- Docs: https://docs.webundle.org
+- Status: https://status.webundle.org

@@ -2,7 +2,7 @@
 
 ## Getting Your API Key
 
-1. Sign up at https://dashboard.routingapi.com
+1. Sign up at https://dashboard.webundle.org
 2. Go to **Settings → API Keys**
 3. Click **Create New Key**
 4. Copy your key (starts with `sk_` for secret keys or `pk_` for public keys)
@@ -14,7 +14,7 @@
 
 ```bash
 curl -H "Authorization: Bearer sk_live_abc123" \
-  https://api.routingapi.com/payments/route
+  https://api.webundle.org/payments/route
 ```
 
 ### Environment Variable
@@ -42,7 +42,7 @@ client = RoutingAPIClient(api_key=os.getenv('ROUTING_API_KEY'))
 
 **cURL**:
 ```bash
-curl -X POST https://api.routingapi.com/payments/route \
+curl -X POST https://api.webundle.org/payments/route \
   -H "Authorization: Bearer $ROUTING_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{"amount": 10000, "currency": "USD", "destination": "US"}'
@@ -65,7 +65,7 @@ curl -X POST https://api.routingapi.com/payments/route \
 ## Testing Your Setup
 
 ```bash
-curl -X GET https://sandbox.routingapi.com/status \
+curl -X GET https://api.webundle.org/status \
   -H "Authorization: Bearer sk_test_abc123"
 ```
 
